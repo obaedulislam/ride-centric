@@ -15,6 +15,7 @@
 }
 body{
     font-family: 'Uber Move', sans-serif;
+    margin: 0 auto;
 }
 h1{
     font-size: 40px;
@@ -48,4 +49,24 @@ p{
 .black-gray{
     color: #3A494E;
 }
+.small-font{
+    font-size: 14px;
+}
 /** ====|| Common CSS Start ||==== **/
+
+/** ====|| Navbar Section Start ||==== **/
+.logo{
+    width: 212px;
+}
+/** ====|| Navbar Section End ||==== **/
+
+
+/** ====|| Banner Section Start ||==== **/
+.banner-bg{
+    background-image: url(../images/hero.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+/** ====|| Banner Section End ||==== **/
