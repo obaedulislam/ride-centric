@@ -1,0 +1,51 @@
+/** ====|| Common CSS Start ||==== **/
+@font-face{
+    font-family: 'Uber Move', sans-serif;
+    src: url(../fonts/UberMove-Bold.ttf);
+    src: url(../fonts/UberMove-Medium.ttf);
+    src: url(../fonts/UberMove-Regular.ttf);
+    src: url(../fonts/UberMove-Light.ttf);
+}
+/* Font Integration End */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Uber Move', sans-serif;
+}
+h1{
+    font-size: 40px;
+    line-height: 48px;
+    color: #0A0E10;
+}
+h2{
+    font-size: 35px;
+    line-height: 42px;
+}
+h3{
+    font-size: 30px;
+    line-height: 36px;
+    color: #3A494E;
+}
+h4{
+    font-size: 25px;
+    line-height: 30px;
+}
+p{
+    font-size: 20px;
+    line-height: 35px;
+    color: #8C8686;
+}
+.primary-color{
+    color: #0A0E10
+}
+.secondary-color{
+    color: #0FC500;
+}
+.black-gray{
+    color: #3A494E;
+}
+/** ====|| Common CSS Start ||==== **/
