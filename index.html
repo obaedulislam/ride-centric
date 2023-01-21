@@ -12,15 +12,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/style.scss">
     <link rel="stylesheet" href="css/style.css">
     <!--==| All CSS Link Integration Start |==-->
 </head>
 <body>
     <!--==| Header Section Start Here |==-->
-    <header class="">
+    <header class="fixed-top  py-md-1 py-0 g-0 px-sm-0 px-3 nav-fixed">
         <!--==== Navigation Menu Start ====-->
-        <div class="container nav-section fixed-top  py-lg-2 py-md-2 py-0 g-0 px-sm-0 px-3">
+        <div class="container nav-section ">
             <div class="nav-menu ">
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid g-0">
@@ -29,14 +30,15 @@
                                 <img class="logo" src="images/logo.svg" alt="">
                             </a>
                         </div>
-                        <button class="navbar-toggler p-0 border-0 bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="bi bi-text-right fs-1"></i>
+                        <button class="navbar-toggler p-0 border-0 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="bi bi-text-right bg-transparent fs-1"></i>
                         </button>
                         <div class="collapse navbar-collapse " id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto my-auto mb-2 mb-lg-0 d-flex align-items-center">
                                 <li class="nav-item  text-center mx-xl-3 mx-lg-2 mx-md-2">
                                     <a class="nav-link active fw-bold fs-5" aria-current="page" href="#login">      
-                                        <img class="user-img" src="images/user.png" alt="User Image"><span class="small-font text-white">LOGIN</span>
+                                        <img class="user-img" src="images/user.png" alt="User Image">
+                                        <span class="small-font text-white nav-color">LOGIN</span>
                                     </a>
                                 </li>
                                 <li class="nav-item text-center mx-xl-3 mx-lg-2 mx-md-2" >
@@ -63,11 +65,11 @@
 
     <!-- Banner Section Start Here -->
     <section class="banner banner-bg overflow-hidden">
-        <div class="container banner-margin d-flex align-items-center vh-100 justify-content-end  z-3">
-            <div class="book-form p-4 rounded-3">
+        <div class="container banner-margin d-flex align-items-center  vh-100 justify-content-lg-end justify-content-center z-3">
+            <div class="book-form p-sm-4 p-2 rounded-3">
                 <h3 class="text-capitalize text-white font-weight-bold">let’s book you a ride</h3>
                 <div>
-                    <ul class="d-flex tab justify-content-around ps-0 mt-3 py-1">
+                    <ul class="d-flex tab justify-content-around ps-0 mt-sm-3 mt-1 py-1">
                         <li><a class="text-decoration-none text-uppercase text-white" href="#">One Day</a></li>
                         <li><a class="text-decoration-none text-uppercase text-white" href="#">Hourly</a></li>
                     </ul>
@@ -77,10 +79,10 @@
                         <li class="flex-fill tab py-1"><img class="user-img me-2" src="images/date.png" alt=""> <a class="text-decoration-none text-white" href="#">Time</a></li>
                     </ul>
                     <ul class="d-flex tab-i  ps-0">
-                        <li class="flex-fill tab me-2 py-1"><img class="user-img me-2" src="images/location.png" alt="">  <a class="text-decoration-none text-white" href="#">Pick Up Location</a></li>
+                        <li class="flex-fill tab  py-1"><img class="user-img me-2" src="images/location.png" alt="">  <a class="text-decoration-none text-white" href="#">Pick Up Location</a></li>
                     </ul>
                 </div>
-                <div class="cta d-flex justify-content-end py-2">
+                <div class="cta d-flex justify-content-end py-sm-2 py-0">
                     <a href="#book-now">
                         <button class="btn hover:text-white book-now book-now2 text-white  px-md-3 px-sm-2 px-2 py-md-1 py-sm-1 py-1  text-uppercase small-font rounded-pill small-font font-weight-bold" >Next Step</button>
                     </a>
@@ -92,7 +94,7 @@
     <!-- Banner Section End Here -->
 
     <!-- Brand Section Start Here -->
-    <section class="container brand-section py-2 overflow-hidden">
+    <section class="container brand-section py-sm-2 py-1 overflow-hidden">
         <div class="brand">
             <h4 class="text-capitalize text-white font-weight-bold text-center">TRUSTED BY THE BEST</h4>
             <div class="text-center">
@@ -106,35 +108,35 @@
     <section class="container py-5 overflow-hidden">
         <div class="row">
             <div class="col-md-3 col-sm-6 col-12 ">
-                <div class="p-3 single-service text-center">
+                <div class="p-lg-3 p-md-0 single-service text-center">
                     <div class="service-icon text-center">
                         <i class="fa-solid fa-users secondary-color"></i>
                     </div>
-                    <h3 class="text-center mt-4">Experience</h3>
+                    <h3 class="text-center mt-sm-4 mt-1">Experience</h3>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-12 ">
-                <div class="p-3 single-service text-center">
+                <div class="p-lg-3 p-md-0  single-service text-center">
                     <div class="service-icon text-center">
                         <i class="fa-solid fa-car secondary-color"></i>
                     </div>
-                    <h3 class="text-center mt-4">Fleet</h3>
+                    <h3 class="text-center mt-sm-4 mt-1">Fleet</h3>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-12 ">
-                <div class="p-3 single-service text-center">
+                <div class="p-lg-3 p-md-0  single-service text-center">
                     <div class="service-icon text-center">
                         <i class="fa-solid fa-laptop secondary-color"></i>
                     </div>
-                    <h3 class="text-center mt-4">Tech</h3>
+                    <h3 class="text-center mt-sm-4 mt-1">Tech</h3>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-12 ">
-                <div class="p-3 single-service text-center">
+                <div class="p-lg-3 p-md-0  single-service text-center">
                     <div class="service-icon text-center">
                         <i class="fa-regular fa-thumbs-up secondary-color"></i>
                     </div>
-                    <h3 class="text-center mt-4">Peace of</h3>
+                    <h3 class="text-center mt-sm-4 mt-1">Peace of</h3>
                 </div>
             </div>
         </div>
@@ -145,7 +147,7 @@
     <section class="why-us bg-light common-padding overflow-hidden">
         <div class="container ">
             <h1 class="text-uppercase text-center mb-4 fw-bold">Why Us</h1>
-            <div class="row g-5">
+            <div class="row g-md-5 g-sm-2 g-0">
                 <div class="col-md-6 col-sm-6 col-12  ">
                     <div class="our-img">
                         <div class="position-relative">
@@ -178,7 +180,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-12">
-                    <h1 class="text-uppercase text-center text-white mb-4 fw-bold">Our Fleets</h1>
+                    <h1 class="text-uppercase text-center text-white mb-sm-4 mb-2 fw-bold">Our Fleets</h1>
 
                     <div class="fleets-img owl-carousel owl-theme">
                         <div class="item"><img src="images/sub.png" alt="Car"></div>
@@ -196,7 +198,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-12 client-bg-img">
-                    <div class="mt-5 mb-4">
+                    <div class="mt-sm-5 mt-4  mb-md-4 mb-0">
                         <h1 class="text-uppercase text-center text-white mb-4 fw-bold">What Client Says</h1>
                     </div>
 
@@ -234,7 +236,7 @@
                     <div class="service-icon text-center">
                         <img  src="images/diamond.svg" alt="">
                     </div>
-                    <h4 class="text-center mt-3">Great Value</h4>
+                    <h4 class="text-center mt-sm-3 mt-2">Great Value</h4>
                     <p>Lorem ipsum dolor ismit</p>
                 </div>
             </div>
@@ -243,7 +245,7 @@
                     <div class="service-icon text-center">
                         <img src="images/globe.svg" alt="">
                     </div>
-                    <h4 class="text-center mt-4">Worldwide Tour</h4>
+                    <h4 class="text-center mt-sm-4 mt-2">Worldwide Tour</h4>
                     <p>Lorem ipsum dolor ismit</p>
                 </div>
             </div>
@@ -252,7 +254,7 @@
                     <div class="service-icon text-center">
                         <img src="images/verify.svg" alt="">
                     </div>
-                    <h4 class="text-center mt-4">Safe Payment</h4>
+                    <h4 class="text-center mt-sm-4 mt-2 ">Safe Payment</h4>
                     <p>Lorem ipsum dolor ismit</p>
                 </div>
             </div>
@@ -273,10 +275,10 @@
     <section class="overflow-hidden">
         <div class="container cta-container bg-light rounded-3 ">
             <div class="row ">
-                <div class="col-md-3 cta-left">
+                <div class="col-md-3 col-0  cta-left">
 
                 </div>
-                <div class="col-md-6 common-padding">
+                <div class="col-md-6 col-12 common-padding">
                     <h1 class="text-center black-gray fw-bold">Let’s Get Connected Together</h1>
                     <p class="text-center">Book a ride today and be a part of the ridecentric family</p>
                     <div class="text-center">
@@ -285,7 +287,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-3 cta-right">
+                <div class="col-md-3 col-0 cta-right">
 
                 </div>
             </div>
@@ -302,17 +304,17 @@
     <!--==| Main Section End Here |==-->
 
     <!--==| Footer Section Start Here |==-->
-    <footer class="overflow-hidden p-0 m-0 footer-section">
+    <footer class="overflow-hidden footer-section">
         <div class="footer-top common-padding">
-            <div class="container p-0">
-                <div class="row g-5">
-                    <div class="col-md-5 ">
+            <div class="container ">
+                <div class="row g-md-5 g-2">
+                    <div class="col-md-5 col-sm-6">
                         <h4 class="text-white">Stay Connected</h4>
                         <p class="text-white mt-3">4517 Washington Ave. Manchester, Kentucky 39495</p>
                         <p class="text-white mt-3">Got Question? Call us 24/7</p>
                         <p class="text-white">+1-214-574-5900</p>
                     </div>
-                    <div class="col-md-3 ">
+                    <div class="col-md-3 col-sm-6">
                         <h4 class="text-white">Links</h4>
                         <ul class="ps-0 mt-3">
                             <li><a class="text-white" href="#privacy"><p class="text-white" >Privacy Policy</p ></a></li>
@@ -323,13 +325,13 @@
                             <li><a class="text-white" href="#affilate"><p class="text-white">Affiliate Login</p></a></li>
                         </ul>
                     </div>
-                    <div class="col-md-4 ">
-                        <h4 class="text-white">Subscribe To Us</h4>
-                        <div class="mt-4">
+                    <div class="col-md-4 col-sm-12">
+                        <h4 class="text-white text-md-start text-sm-center">Subscribe To Us</h4>
+                        <div class="mt-md-4 mt-sm-2">
                             <div class="input-group mb-3">
                                 <input type="text" class="form-control" placeholder="Input your email address" aria-label="Recipient's username" aria-describedby="button-addon2">
                             </div>
-                            <div class="d-flex justify-content-end ">
+                            <div class="d-flex justify-content-md-end justify-content-sm-center justify-content-md-start ">
                                 <button class="btn btn-outline-secondary rounded-pill footer-button text-white px-3" type="button" id="button-addon2">Subscribe</button>
                             </div>
                         </div>

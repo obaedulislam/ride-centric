@@ -113,6 +113,16 @@ p{
     width: 16px;
     margin-right: 7px;
 }
+header.nav-fixed {
+    padding: 5px 0;
+    width: 100%;
+    position: fixed;
+    transition: 0.3s ease-in-out;
+}
+.nav-active {
+    background-color:#0A0E10;
+    box-shadow: 5px -1px 12px -5px grey;
+}
 /** ====|| Navbar Section End ||==== **/
 
 /** ====|| Banner Section Start ||==== **/
@@ -269,7 +279,7 @@ p{
 }
 .client-item{
     margin: 0 auto;
-    width: 60% !important;
+    width: 60% ;
 }
 /** ====|| Clients Section End ||==== **/
 
