@@ -275,7 +275,10 @@ p{
 
 
 /** ====|| CTA Section Start ||==== **/
-
+.cta-container .book-now:hover{
+    color: #060606;
+    border: 1px solid #060606;
+}
 .cta-left{
     background-image: url("/images/continuous-line-woman.svg");
     background-position: left bottom;
