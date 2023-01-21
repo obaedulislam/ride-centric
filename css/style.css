@@ -112,7 +112,22 @@ p{
 /** ====|| Banner Section End ||==== **/
 
 /** ====|| Service Section Start ||==== **/
+.single-service{
+    margin: 30px;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+}
+.single-service:hover{
+    border-bottom: 3px solid #0376F9;
+}
 .service-icon i{
     font-size: 64px;
+    transition: .3s;
+}
+.single-service h3{
+    transition: .3s;
+}
+.single-service:hover .service-icon i, .single-service:hover h3{
+    color: #0376F9;
 }
 /** ====|| Service Section End ||==== **/
