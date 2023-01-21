@@ -301,4 +301,14 @@ p{
 .footer-bottom, .footer-section{
     background-color: #060606;
 }
+.footer-top ul{
+
+}
+.footer-top ul li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+.footer-button{
+    background-color: #0376F9;
+}
 /** ====|| Footer Section End ||==== **/
