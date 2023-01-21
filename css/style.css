@@ -109,8 +109,10 @@ p{
     border: 1px solid #ffffff;
     color: #ffffff;
 }
-.user-img{
-    width: 16px;
+.user-icon{
+    font-size: 16px;
+    line-height: 0;
+    color: #fff;
     margin-right: 7px;
 }
 header.nav-fixed {
