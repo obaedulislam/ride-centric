@@ -2,9 +2,6 @@
 @font-face{
     font-family: 'Uber Move', sans-serif;
     src: url(../fonts/UberMove-Bold.ttf);
-    src: url(../fonts/UberMove-Medium.ttf);
-    src: url(../fonts/UberMove-Regular.ttf);
-    src: url(../fonts/UberMove-Light.ttf);
 }
 /* Font Integration End */
 
@@ -29,6 +26,7 @@ h2{
 h3{
     font-size: 30px;
     line-height: 36px;
+    font-weight: 700;
     color: #3A494E;
 }
 h4{
@@ -58,15 +56,63 @@ p{
 .logo{
     width: 212px;
 }
+.book-now {
+    border: 1px solid #0FC500;
+}
+.book-now2{
+    background-color: #0FC500;
+}
+.book-now:hover {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.user-img{
+    width: 16px;
+    margin-right: 7px;
+}
 /** ====|| Navbar Section End ||==== **/
-
 
 /** ====|| Banner Section Start ||==== **/
 .banner-bg{
-    background-image: url(../images/hero.png);
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("/images/hero.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     height: 100vh;
+    margin: 0 auto;
+}
+.banner-margin{
+    margin: 0 auto;
+}
+.book-form{
+    background-color: rgba(10, 20, 20, 0.7);
+}
+.tab {
+    border-bottom:  2px solid #fff;
+}
+
+.tab li, .tab-i li{
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.tab li a:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
+.brand-section{
+    margin-top: -120px;
+}
+.brand-section h4{
+    font-size: 23px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    font-weight: 700;
 }
 /** ====|| Banner Section End ||==== **/
+
+/** ====|| Service Section Start ||==== **/
+.service-icon i{
+    font-size: 64px;
+}
+/** ====|| Service Section End ||==== **/
